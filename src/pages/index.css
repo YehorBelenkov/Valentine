@@ -1,0 +1,356 @@
+/*Phone View*/
+@media (max-width: 500px){
+    :root {
+        --input-font-size: 6vw; 
+        --text-font-size: 8vw; 
+        --button-font-size: 6vw; 
+
+        --inp_text_w_size: 85vw;
+        --btn_w_size: 80vw;
+        --btn_margin_top: 7vw;
+    }
+
+    .h1_c{
+        color: white;
+        font-weight: 100;
+        font-size: var(--text-font-size);
+    }
+    .input_container{
+        width: 100vw;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input_el_con{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    body{
+        background-color: #E74C3C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_el_con h1{
+        margin: 0;
+        color: white;
+        font-size: var(--text-font-size);
+        font-weight: 300;
+    }
+    .input_el_con input, .input_el_con textarea{
+        width: var(--inp_text_w_size);
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: #922B21;
+        color: white;
+        border: none;
+        font-size: var(--input-font-size);
+        font-family: 'Pacifico', cursive;
+    }
+    .input_el_con textarea {
+        height: auto; 
+        max-width: var(--inp_text_w_size);
+        min-width: var(--inp_text_w_size);
+
+        font-size: var(--input-font-size);
+        resize: none;
+    }
+    .input_container button{
+        background-color: #922B21;
+        color: white;
+        width: var(--btn_w_size);
+        padding: 0.5rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: var(--btn_margin_top);
+        font-size: var(--button-font-size);
+        cursor: pointer;
+        transition-duration: 0.2s;
+        font-family: 'Pacifico', cursive;
+    }
+    .input_container button:hover{
+        transform: scale(0.9);
+    }
+    .url-container {
+        width: 85vw;
+        margin-top: 1rem; 
+        text-align: center; 
+        overflow-wrap: break-word; 
+    }
+    
+    .url {
+        cursor: pointer;
+    }
+    
+    .copied {
+        color: blueviolet;
+    }
+    @media (min-width: 400px){
+        :root {
+            --input-font-size: 5vw; 
+            --text-font-size: 6.5vw; 
+            --button-font-size: 5vw; 
+    
+            --inp_text_w_size: 85vw;
+            --btn_w_size: 80vw;
+            --btn_margin_top: 5vw;
+        }
+    }
+}
+/*Tablet View*/
+@media (min-width: 500px) and (max-width: 768px){
+    :root {
+        --input-font-size: 4vw; 
+        --text-font-size: 6vw; 
+        --button-font-size: 5vw; 
+
+        --inp_text_w_size: 75vw;
+        --btn_w_size: 70vw;
+        --btn_margin_top: 4vw;
+
+        --input_container_width: 78vw;
+    }
+
+    .h1_c{
+        color: white;
+        font-weight: 100;
+        font-size: var(--text-font-size);
+    }
+    .input_container{
+        width: 100vw;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input_el_con{
+        display: flex;
+        flex-direction: column;
+        width: var(--input_container_width);
+    }
+    body{
+        background-color: #E74C3C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_el_con h1{
+        margin: 0;
+        color: white;
+        font-size: var(--text-font-size);
+        font-weight: 300;
+    }
+    .input_el_con input, .input_el_con textarea{
+        width: var(--inp_text_w_size);
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: #922B21;
+        color: white;
+        border: none;
+        font-size: var(--input-font-size);
+        font-family: 'Pacifico', cursive;
+    }
+    .input_el_con textarea {
+        height: auto; 
+        max-width: var(--inp_text_w_size);
+        min-width: var(--inp_text_w_size);
+
+        font-size: var(--input-font-size);
+        resize: none;
+    }
+    .input_container button{
+        background-color: #922B21;
+        color: white;
+        width: var(--btn_w_size);
+        padding: 0.5rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: var(--btn_margin_top);
+        font-size: var(--button-font-size);
+        cursor: pointer;
+        transition-duration: 0.2s;
+        font-family: 'Pacifico', cursive;
+    }
+    .input_container button:hover{
+        transform: scale(0.9);
+    }
+    .url-container {
+        width: 85vw;
+        margin-top: 1rem; 
+        text-align: center; 
+        overflow-wrap: break-word; 
+    }
+    
+    .url {
+        cursor: pointer;
+    }
+    
+    .copied {
+        color: blueviolet;
+    }
+    @media (min-width: 570px){
+        :root {
+            --input-font-size: 4vw; 
+            --text-font-size: 5vw; 
+            --button-font-size: 4vw; 
+    
+            --inp_text_w_size: 75vw;
+            --btn_w_size: 65vw;
+            --btn_margin_top: 4vw;
+    
+            --input_container_width: 78vw;
+        }
+    }
+    @media (min-width: 649px){
+        :root {
+            --input-font-size: 3vw; 
+            --text-font-size: 4vw; 
+            --button-font-size: 3vw; 
+    
+            --inp_text_w_size: 70vw;
+            --btn_w_size: 60vw;
+            --btn_margin_top: 4vw;
+    
+            --input_container_width: 70vw;
+        }
+    }
+}
+/*Pc View*/
+@media (min-width: 769px){
+    :root {
+        --input-font-size: 3vw; 
+        --text-font-size: 3vw; 
+        --button-font-size: 3vw; 
+
+        --inp_text_w_size: 60vw;
+        --btn_w_size: 50vw;
+        --btn_margin_top: 2vw;
+
+        --input_container_width: 60vw;
+    }
+
+    .h1_c{
+        color: white;
+        font-weight: 100;
+        font-size: var(--text-font-size);
+    }
+    .input_container{
+        width: 100vw;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input_el_con{
+        display: flex;
+        flex-direction: column;
+        width: var(--input_container_width);
+    }
+    body{
+        background-color: #E74C3C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_el_con h1{
+        margin: 0;
+        color: white;
+        font-size: var(--text-font-size);
+        font-weight: 300;
+    }
+    .input_el_con input, .input_el_con textarea{
+        width: var(--inp_text_w_size);
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: #922B21;
+        color: white;
+        border: none;
+        font-size: var(--input-font-size);
+        font-family: 'Pacifico', cursive;
+    }
+    .input_el_con textarea {
+        height: auto; 
+        max-width: var(--inp_text_w_size);
+        min-width: var(--inp_text_w_size);
+
+        font-size: var(--input-font-size);
+        resize: none;
+    }
+    .input_container button{
+        background-color: #922B21;
+        color: white;
+        width: var(--btn_w_size);
+        padding: 0.5rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: var(--btn_margin_top);
+        font-size: var(--button-font-size);
+        cursor: pointer;
+        transition-duration: 0.2s;
+        font-family: 'Pacifico', cursive;
+    }
+    .input_container button:hover{
+        transform: scale(0.9);
+    }
+    .url-container {
+        width: 85vw;
+        margin-top: 1rem; 
+        text-align: center; 
+        overflow-wrap: break-word; 
+    }
+    
+    .url {
+        cursor: pointer;
+    }
+    
+    .copied {
+        color: blueviolet;
+    }
+    @media (min-width: 968px){
+        :root {
+            --input-font-size: 2vw; 
+            --text-font-size: 3vw; 
+            --button-font-size: 3vw; 
+    
+            --inp_text_w_size: 60vw;
+            --btn_w_size: 50vw;
+            --btn_margin_top: 2vw;
+    
+            --input_container_width: 60vw;
+        }
+    }
+    @media (min-width: 1100px){
+        :root {
+            --input-font-size: 2vw; 
+            --text-font-size: 3vw; 
+            --button-font-size: 2vw; 
+    
+            --inp_text_w_size: 50vw;
+            --btn_w_size: 40vw;
+            --btn_margin_top: 2vw;
+    
+            --input_container_width: 50vw;
+        }
+    }
+    @media (min-width: 1200px){
+        :root {
+            --input-font-size: 1.5vw; 
+            --text-font-size: 2vw; 
+            --button-font-size: 2vw; 
+    
+            --inp_text_w_size: 50vw;
+            --btn_w_size: 40vw;
+            --btn_margin_top: 2vw;
+    
+            --input_container_width: 50vw;
+        }
+    }
+}
